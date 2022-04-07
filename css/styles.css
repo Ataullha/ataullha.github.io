@@ -19,7 +19,7 @@ footer {
   text-align: center;
 }
 
-.contact-information a {
+.contact-information a, .google-play-link {
   text-decoration: none;
 }
 
