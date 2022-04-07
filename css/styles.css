@@ -1,9 +1,36 @@
 a {
   color: blue;
+  font-style: italic;
 }
+
 a:hover {
-    color: blue;
+  color: blue;
 }
-footer{
-    text-align: center;
+
+table,
+b,
+p,
+h1,
+h3 {
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+}
+
+.contact-information a {
+  text-decoration: none;
+}
+
+.batch {
+  color: blue;
+}
+
+.present-address {
+  color: black;
+} 
+
+.topic {
+  font-weight: bold;
 }
