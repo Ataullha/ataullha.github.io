@@ -34,3 +34,9 @@ footer {
 .topic {
   font-weight: bold;
 }
+
+.portrait {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
