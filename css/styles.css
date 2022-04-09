@@ -1,3 +1,17 @@
+* {
+  min-width: 190px;
+}
+
+table,
+b,
+p,
+h1,
+h3,
+li,
+dt {
+  font-style: italic;
+}
+
 a {
   color: blue;
   font-style: italic;
@@ -7,19 +21,8 @@ a:hover {
   color: blue;
 }
 
-table,
-b,
-p,
-h1,
-h3 {
-  font-style: italic;
-}
-
-footer {
-  text-align: center;
-}
-
-.contact-information a, .google-play-link {
+.contact-information a,
+.google-play-link {
   text-decoration: none;
 }
 
@@ -29,14 +32,17 @@ footer {
 
 .present-address {
   color: black;
-} 
+}
 
 .topic {
   font-weight: bold;
 }
 
+footer {
+  text-align: center;
+}
+
 .portrait {
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
+  height: 230px;
+  width: 180px;
 }
