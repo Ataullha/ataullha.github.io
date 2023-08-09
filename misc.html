@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Ataullha Saim - Personal Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="./index.html" style="color: white; text-decoration: none;">Md Ataullha Saim</a></h1>
+    </header>
+    <nav>
+        <a href="./index.html#about">About</a>
+        <a href="./index.html#research">Research</a>
+        <a href="./index.html#project">Project</a>
+        <a href="./index.html#services">Services</a>
+        <a href="./index.html#achievement">Achievement</a>
+        <a href="./Md Ataullha.pdf" download="Ataullha.pdf">CV</a>
+        <!-- <a href="path-to-your-pdf-file.pdf" download="desired-filename.pdf">Download PDF</a> -->
+        <a href="./misc.html">Misc.</a>
+    </nav>
+    <div class="content">
+        <section id="misc">
+            <h2>Miscellaneous</h2>
+            <p>Content will be released soon. Stay tuned!</p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2023 Md Ataullha Saim. All rights reserved. <Br>
+        Last updated: <span id="current-date"></span>
+    </footer>
+
+    <script>
+        const currentDate = new Date().toLocaleDateString();
+        const currentTime = new Date().getTime()
+        document.getElementById('current-date').textContent = currentDate;
+    </script>
+</body>
+
+</html>
