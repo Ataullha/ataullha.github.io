@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <h1><a href="./index.html" style="color: white; text-decoration: none;">Md Ataullha Saim</a></h1>
+        <h1><a href="./index.html">Md Ataullha Saim</a></h1>
     </header>
     <nav>
         <a href="./index.html#about">About</a>
@@ -29,7 +29,14 @@
     <div class="content">
         <section id="misc">
             <h2>Miscellaneous</h2>
-            <p>Content will be released soon. Stay tuned!</p>
+            <iframe width="560" height="315" src="https://youtube.com/embed/4UKcsdWXt3I" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.facebook.comembed/305995188411401"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </section>
     </div>
     <footer>
@@ -42,6 +49,10 @@
         const currentTime = new Date().getTime()
         document.getElementById('current-date').textContent = currentDate;
     </script>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0&appId=648775063139794&autoLogAppEvents=1"
+        nonce="ynlwiCkx"></script>
 </body>
 
 </html>
