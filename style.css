@@ -407,7 +407,7 @@ body {
 }
 
 .img-circle {
-    border-radius: 50%
+    border-radius: 0%
 }
 
 h1,
@@ -713,7 +713,7 @@ screen and (max-width: 480px) {
     }
 
     .rigamanga {
-        border-radius: 50%;
+        border-radius: 100%;
         max-width: 60%;
         display: block;
         margin-left: auto;
