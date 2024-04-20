@@ -18,6 +18,7 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <script src="//widget.time.is/en.js"></script>
 
 
 </head>
@@ -195,8 +196,11 @@
 
                     <hr>
 
+                    <p id="time_is_link" style="font-size:12px;color:gray;background:white;">Time in Dhaka:
+                    <span id="Dhaka_z412" style="font-size:12px;color:gray;background:white"></span>
+                    <p style="color: gray; font-size: 12px;">Last updated: <span id="last-updated">20 April, 2024</span>
+                    </p>
 
-                    <p style="color: gray;">Last updated: <span id="last-updated">10 April 2024</span></p>
 
 
                 </div>
@@ -206,6 +210,9 @@
         </div>
     </div>
 
+    <script>
+        time_is_widget.init({ Dhaka_z412: { template: "TIME<br>DATE<br>SUN", time_format: "12hours:minutes:secondsAMPM", date_format: "dayname, dnum monthname, year, week", sun_format: "Sunrise: srhour:srminute Sunset: sshour:ssminute<br>Day length: dlhoursh dlminutesm", coords: "23.7104000,90.4074400" } });
+    </script>
 
 </body>
 
