@@ -1,3 +1,5 @@
+/* portfolio website */
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -5,7 +7,7 @@ body {
 h1 {
   text-align: center;
   font-weight: bolder;
-  font-size: 3em;
+  font-size: 2.5em;
   font-variant-caps: all-petite-caps;
 }
 
@@ -74,7 +76,8 @@ hr {
 .education,
 .contact,
 .talks-and-interviews,
-.projects {
+.projects,
+.blog {
   margin-left: 10%;
   margin-right: 10%;
   max-width: 81%;
