@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://ataullha.github.io/" 
+title: Md. Ataullha
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -54,9 +54,9 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
+          title: Md. Ataullha
+          subtitle: "Hello! This is Md. Ataullha. I hold a B.Sc. in Computer Science and Engineering from Shahjalal University of Science and Technology (SUST) in Sylhet, Bangladesh. Currently, I am working as a full-time Lecturer in the Department of Computer Science and Engineering at Green University of Bangladesh in Dhaka. With a background in AI engineering, my research focuses on multilingual speech technologies and the development of accessible language tools for underrepresented communities—particularly those involving regional and low-resource languages. My academic interests include applied machine learning, large language model (LLM) evaluation, and exploring the intersection of ecological informatics with machine learning and speech technologies."
+          imageUrl: "picture.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
@@ -79,25 +79,23 @@ params:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
+          url: mailto:ataullha00@gmail.com
         - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
+          url: https://us05web.zoom.us/j/3931734750?pwd=KNk8lpPMnr6lln1jbjXFTGSzDkuybS.1
         - name: Location
           url: location/
         - name: Office Hours
           url: officehours/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.com/citations?user=N2dzzwsAAAAJ&hl=en
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+          url: https://github.com/ataullha
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/ataullha/
+        - name: ResearchGate
+          url: https://www.researchgate.net/profile/Md-Ataullha-Saim
+        - name: Facebook
+          url: https://www.facebook.com/ataullha00
 
     assets:
         disableScrollBarStyle: true
@@ -105,7 +103,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Md. Ataullha"
       icon: favicon.ico
       iconHeight: 18
 
