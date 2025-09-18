@@ -1,0 +1,30 @@
+{
+  "personal": {
+    "name": "Md. Ataullha",
+    "title": "Lecturer in Computer Science & Engineering",
+    "photo": "/images/profile.jpg",
+    "cv": "/cv/Md_Ataullha_CV.pdf",
+    "bio": "I specialize in multilingual speech technologies and AI engineering, with a focus on developing accessible language tools for underrepresented communities and low-resource languages.",
+    "contact": {
+      "email": "ataullha@cse.green.edu.bd",
+      "phone": "+880 1879 093 418",
+      "location": "Dhaka, Bangladesh"
+    },
+    "social": {
+      "googleScholar": "https://scholar.google.com/citations?user=N2dzzwsAAAAJ&hl=en",
+      "github": "https://github.com/Ataullha",
+      "linkedin": "https://www.linkedin.com/in/ataullha/"
+    }
+  },
+  "supervisor": {
+    "name": "Dr. Mohammad Shahidur Rahman",
+    "title": "Professor, Department of CSE",
+    "institution": "Shahjalal University of Science and Technology",
+    "email": "rahmanms@sust.edu"
+  },
+  "currentPosition": {
+    "title": "Lecturer",
+    "department": "Department of Computer Science and Engineering",
+    "institution": "Green University of Bangladesh, Dhaka"
+  }
+}
