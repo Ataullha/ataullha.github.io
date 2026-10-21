@@ -31,10 +31,12 @@ FreeBoard's source, license, setup and verification report live in the
 [`Ataullha/FreeBoard`](https://github.com/Ataullha/FreeBoard) repository. The
 portfolio itself retains its existing content and rights notices.
 
-## Previous address
+## Application address
 
-The earlier `/FreePod/` address redirects to `/FreeBoard/`. Its small compatibility
-worker waits for the existing application's **Save & restart** action before
-taking over an active session. It redirects future navigations and retains access
-to cached assets for an older tab. It does not delete boards or clear browser
-storage. Both paths use the same origin, so saved boards remain available.
+FreeBoard is published only at `/FreeBoard/`. The earlier `/FreePod/` deployment
+and its compatibility redirect have been removed from the site. The workflow
+checks that the published artifact contains no `FreePod` directory. The portfolio
+icon and source repository link to `/FreeBoard/`.
+
+Saved boards remain in the same origin's IndexedDB; removing the old deployment
+does not clear browser storage. Use the FreeBoard address for future visits.
