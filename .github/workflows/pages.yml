@@ -55,16 +55,15 @@ jobs:
         run: |
           mkdir -p _site
           cp -a portfolio/. _site/
-          rm -rf _site/.git _site/.github _site/redirects
-          mkdir -p _site/FreeBoard _site/FreePod
+          rm -rf _site/.git _site/.github _site/redirects _site/FreePod
+          mkdir -p _site/FreeBoard
           cp -a whiteboard/dist/. _site/FreeBoard/
-          cp -a portfolio/redirects/whiteboard/. _site/FreePod/
           touch _site/.nojekyll
           test -s _site/index.html
           test -s _site/FreeBoard/index.html
           test -s _site/FreeBoard/sw.js
           test -s _site/FreeBoard/manifest.webmanifest
-          test -s _site/FreePod/index.html
+          test ! -e _site/FreePod
       - name: Configure Pages
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - name: Upload site
